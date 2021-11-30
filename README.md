@@ -1,6 +1,6 @@
 # PneuNet
 
-## The model along with Dataset cannot be used for clinical dignosis on COVID-19 without the agreement from clinician.
+## The model along with Dataset cannot be used for making clinical dignosis on COVID-19 without a clinical study.
 
 ## Dataset access
 The open accessed Dataset can be obtained from 
