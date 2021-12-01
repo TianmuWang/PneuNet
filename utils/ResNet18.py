@@ -22,7 +22,7 @@ def basic_bottle(inpt, filters=64, kernel_size=(3,3), strides=1, padding='same',
     return outt
 
 def resnet18(class_nums=1000):
-    inpt = layers.Input(shape=(224,224,3))
+    inpt = layers.Input(shape=(224,224,1))
     #layer 1
     x = conv2d_bn(inpt, filters=64, kernel_size=(7,7), strides=2, padding='valid')
     x = layers.MaxPool2D(pool_size=(3,3), strides=2)(x)
